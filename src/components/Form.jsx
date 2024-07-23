@@ -45,7 +45,7 @@ export default function Form() {
   };
 
   return (
-    <div className="w-3/4 mx-auto shadow-lg font-montserrat bg-gray-200 p-8 mt-8 rounded-lg">
+    <div className="w-3/4 mx-auto shadow font-montserrat bg-gray-200 p-8 mt-8 rounded-lg">
       <h2 className="text-2xl font-bold mb-3 underline-offset-8 underline font-roboto text-center">
         Duplicate Manager
       </h2>
