@@ -1,0 +1,68 @@
+// mockData.js
+const mockData = [
+  {
+    Badge: 'A123',
+    OrderNumber: 'ORD001',
+    MethodId: 'MTH01',
+    RegClass: 'VIP',
+    FirstName: 'John',
+    LastName: 'Doe',
+    RegTimeStamp: '2024-07-23T10:00:00Z',
+    Verified: 'NULL',
+    TotalAll: 'NULL',
+    reg_notes: 'First-time registrant',
+    Company: 'Example Corp',
+    Street: '123 Main St',
+    Street2: '',
+    City: 'Metropolis',
+    State: 'NY',
+    Zipcode: '12345',
+    Country: 'USA',
+    Phone: '555-1234',
+    email: 'john.doe@example.com'
+  },
+  {
+    Badge: 'B456',
+    OrderNumber: 'ORD002',
+    MethodId: 'MTH02',
+    RegClass: 'Standard',
+    FirstName: 'Jane',
+    LastName: 'Smith',
+    RegTimeStamp: '2024-07-24T11:00:00Z',
+    Verified: 'NULL',
+    TotalAll: 'NULL',
+    reg_notes: 'Repeat registrant',
+    Company: 'Tech Solutions',
+    Street: '456 Market St',
+    Street2: 'Suite 200',
+    City: 'Gotham',
+    State: 'CA',
+    Zipcode: '67890',
+    Country: 'USA',
+    Phone: '555-5678',
+    email: 'jane.smith@techsolutions.com'
+  },
+  {
+    Badge: 'C789',
+    OrderNumber: 'ORD003',
+    MethodId: 'MTH03',
+    RegClass: 'Economy',
+    FirstName: 'Alice',
+    LastName: 'Johnson',
+    RegTimeStamp: '2024-07-25T12:00:00Z',
+    Verified: 'NULL',
+    TotalAll: 'NULL',
+    reg_notes: 'Walk-in registrant',
+    Company: 'Innovate LLC',
+    Street: '789 Broad St',
+    Street2: 'Apt 3',
+    City: 'Star City',
+    State: 'TX',
+    Zipcode: '11223',
+    Country: 'USA',
+    Phone: '555-7890',
+    email: 'alice.johnson@innovate.com'
+  }
+];
+
+export default mockData;
