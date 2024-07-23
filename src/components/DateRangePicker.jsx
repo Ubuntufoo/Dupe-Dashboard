@@ -2,13 +2,13 @@ import React from "react";
 
 function DateRangePicker({ startDate, endDate, onChange }) {
   return (
-    <div className="mt-4 mb-8 mx-auto">
+    <div className="mt-4 mb-7 mx-auto">
       <label className="block font-semibold text-gray-700">
         Date Range Picker
       </label>
       <div className="flex space-x-4">
         <div>
-          <label className="block text-gray-700">Start Date</label>
+          <label className="block text-gray-700 ">Start Date</label>
           <input
             type="date"
             name="startDate"
